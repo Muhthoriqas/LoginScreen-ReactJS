@@ -11,7 +11,9 @@ const Login = () => {
           <input type="password" required></input>
           <label>Password</label>
         </div>
-        <button className="btn">SUBMIT</button>
+        <button className="btn" href="/">
+          SUBMIT
+        </button>
         <p className="text">
           Don't have an account?
           <a href="/">Create account</a>
